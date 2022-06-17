@@ -1,0 +1,70 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(file:///Users/Chav/Desktop/Homework%20APIs/chuck/img/bigchuck.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+h1{
+  font-family: 'Drive Corps Gradient';
+  text-align: center;
+  font-size: 82px;
+  color: rgb(234, 48, 11);
+  margin-bottom: 260px;
+}
+button{
+  background: rgb(234, 48, 11);
+  margin: 0 auto;
+  display: block;
+  height: 82px;
+  width: 164px;
+  font-family: 'Drive Corps';
+  font-size: 31px;
+
+}
+h2{
+  text-align: center;
+  font-size: 31px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: black;
+}
+.holdem{
+  border: 1px solid white;
+  margin: 10px 190px;
+  background-color: antiquewhite;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media (max-width: 767px){
+  h2{
+    font-size: 14px;
+  }
+  body{
+    background-image: url(file:///Users/Chav/Desktop/Homework%20APIs/chuck/img/bigchuck.jpeg) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+  .holdem{
+    border: 1px solid white;
+    margin: 10px 190px;
+    background-color: rgb(234, 48, 11);
+  }
+}
