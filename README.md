@@ -1,5 +1,5 @@
 # chuck-norris-quotes
-A random quote generator of Chuck Norris Quotes. A fun project using APIs. And who can pass on a good Chuck Norris joke!?
+A random quote generator of Chuck Norris Quotes. A fun project using APIs with HTML and CSS. And who can pass on a good Chuck Norris joke!?
 
 https://chuckquotesgenerator.netlify.app/
 
